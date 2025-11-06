@@ -1,0 +1,74 @@
+
+Linkedin Games
+
+Tela hub
+
+    mini sudoku
+    zip
+    queens
+    tango
+
+MVP - Tango
+
+1 - Reconhecimento da imagem
+
+    A - Upload imagem
+
+    B - Pre tratamento
+
+    C - Reconhecer grade
+
+    D - Reconhecer o que é lua e o que é sol (fazer genérico caso tenha edição comemorativa)
+
+    E - Reconhecer dicas (simbolos "=" e "x")
+
+    F - Criar matriz com as infos
+
+        _________________________
+        |_X_|_X_|___|___|_O_|___|
+        |_O_|___|___|___|___|___|
+        |___|___|___|___|___|___|
+        |___|___|___|___|___|___|
+        |___|___|___|___|___|___|
+        |_X_|___|___|___|___|___|
+
+        matriz incidencia objeto
+        1,1 = sol
+        1,2 = sol
+        1,3 = vazio
+        1,4 = vazio
+        1,5 = lua
+        1,6 = vazio
+
+    E - Criar matriz de relações
+
+        * matriz relações linhas 
+
+            1,1 -> 1,2 |  1,2 -> 1,3 |  1,3 -> 1,4 |  1,4 -> 1,5 |  1,5 -> 1,6
+
+        * matriz relações colunas 
+
+            1,1 -> 2,1 |  1,2 -> 2,2 |  1,3 -> 2,3 |  1,4 -> 2,4 |  1,5 -> 2,5 | 1,6 -> 2,6
+
+2 - Resolver a lógica
+
+    A - Pegar matriz
+
+    B - Verificar vetor e aplicar regras 
+
+    C - Varrer matriz
+
+        linha 1
+        linha 2
+        ...
+        Coluna 1
+        Coluna 2
+        ...
+
+
+3 - Mostrar a solução
+
+
+
+
+
