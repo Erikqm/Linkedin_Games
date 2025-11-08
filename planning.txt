@@ -12,7 +12,7 @@ MVP - Tango
 
 1 - Reconhecimento da imagem
 
-    A - Upload imagem
+    A - Upload imagem - OK
 
     B - Pre tratamento
 
